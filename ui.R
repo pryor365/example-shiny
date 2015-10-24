@@ -3,7 +3,7 @@
 library(shiny)
 
 shinyUI(navbarPage(
-  title = 'DataTable Options',
+  title = 'DataTable Example',
   tabPanel('Display length',     dataTableOutput('ex1')),
   tabPanel('Length menu',        dataTableOutput('ex2')),
   tabPanel('No pagination',      dataTableOutput('ex3')),
